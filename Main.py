@@ -107,7 +107,8 @@ player = 0
 print(player)
 
 if player == 0:
-    print(random.randrange(len(zeroquestions)))
+    choice = random.randrange(len(zeroquestions))
+    print(zeroquestions[choice])
 elif player == 1:
     print(random.randrange(len(zeroquestions)))
 elif player == 2:
