@@ -100,32 +100,41 @@ ninequestions = (
     "He was very overpaid by the Edmonton Oilers during the 2016 free agency period"
 )
 
-# --- MAIN
+# --- Main Code
 print("Welcome to the NHL Player guesser! Here you will have to guess a certain NHL player based upon the description given")
 
 player = 0
 print(player)
 
 if player == 0:
-    choice = random.randrange(len(zeroquestions))
-    print(zeroquestions[choice])
+    choice0 = random.randrange(len(zeroquestions))
+    print(zeroquestions[choice0])
 elif player == 1:
-    print(random.randrange(len(zeroquestions)))
+    choice1 = choice = random.randrange(len(onequestions))
+    print(onequestions[choice1])
 elif player == 2:
-    print(random.randrange(len(zeroquestions)))
+    choice2 = random.randrange(len(twoquestions))
+    print(twoquestions[choice2])
 elif player == 3:
-    print(random.randrange(len(zeroquestions)))
+    choice3 = random.randrange(len(threequestions))
+    print(threequestions[choice3])
 elif player == 4:
-    print(random.randrange(len(zeroquestions)))
+    choice4 = random.randrange(len(fourquestions))
+    print(fourquestions[choice4])
 elif player == 5:
-    print(random.randrange(len(zeroquestions)))
+    choice5 = random.randrange(len(fivequestions))
+    print(fivequestions[choice5])
 elif player == 6:
-    pass
+    choice6 = random.randrange(len(sixquestions))
+    print(sixquestions[choice6])
 elif player == 7:
-    pass
+    choice7 = random.randrange(len(sevenquestions))
+    print(sevenquestions[choice7])
 elif player == 8:
-    pass
+    choice8 = random.randrange(len(eightquestions))
+    print(eightquestions[choice8])
 elif player == 9:
-    pass
+    choice9 = random.randrange(len(ninequestions))
+    print(ninequestions[choice9])
 else:
-    print("something went wrong")
+    print("Something went wrong!")
